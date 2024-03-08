@@ -17,6 +17,7 @@ public class MakeMytripFlipghtBooking {
 
 	@Test(groups="smoke")
 	public void accessApp() throws AWTException {
+		System.out.println("smoke");
 // 		driver = new ChromeDriver();
 // 		driver.manage().window().maximize();
 // 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
@@ -41,4 +42,4 @@ public class MakeMytripFlipghtBooking {
 // //		toCity.clear();
 // //		toCity.sendKeys("new Delhi");
 // //		toCity.click();
-	}
+	}}
