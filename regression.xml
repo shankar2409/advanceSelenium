@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<groups>
+		<run>
+			<include name="regression"></include>
+		</run>
+	</groups>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="advsele.ChormeDemoWebShopTest" />
+			<class name="advsele.ChromeClassTest" />
+			<class name="Day1_assignment_demoApps.FlipkartAutohiding" />
+			<class name="Day1_assignment_demoApps.AmazonPrintColours" />
+			<class
+				name="Day1_assignment_demoApps.Day1_Assignment1_demoappsQspiders" />
+			<class name="advsele.MakeMytripFlipghtBooking" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

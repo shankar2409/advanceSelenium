@@ -7,10 +7,11 @@ import org.testng.annotations.Test;
 public class ChormeDemoWebShopTest {
 	WebDriver driver;
 
-	@Test
+	@Test(groups = "smoke")
 	public void chromeDemoWebShop() {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://demowebshop.tricentis.com/cart");
+		System.out.println("smoke");
 	}
 }

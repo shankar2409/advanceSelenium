@@ -23,10 +23,10 @@ public class extendedreport {
 		
 		String screenshot=ts.getScreenshotAs(OutputType.BASE64);
 		
-		ExtentSparkReporter er=new ExtentSparkReporter("extendedReports\\takeScrrenshot.html");
+		ExtentSparkReporter er=new ExtentSparkReporter("extendedReports\\takeScr.html");
 		ExtentReports ew=new ExtentReports();
 		ew.attachReporter(er);
-		 ExtentTest test = ew.createTest("extendedreport");
+		 ExtentTest test = ew.createTest("uyytftuyyu");
 		test.log(Status.INFO, "succesfully added");
 		test.addScreenCaptureFromBase64String(screenshot);
 		ew.flush();
